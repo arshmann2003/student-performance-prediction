@@ -8,16 +8,18 @@ student-sleep-ML/
 ├── data/
 │   ├── raw/                  # Original datasets
 │   ├── interim/              # Cleaned intermediate datasets
-│   ├── input/                # Input files for prediction
+│   ├── input/                # Input files for modeling or testing
 │   └── output/               # Prediction outputs
 ├── figures/                  # Saved plots and graphs
 ├── models/                   # Trained models (pickle format)
+├── predict/                  # GPA prediction module
+│   ├── predict_gpa.py        # Script for real-time GPA prediction
+│   └── input/                # Input files for GPA prediction
 ├── scripts/                  # Core scripts
 │   ├── clean_merge.py
 │   ├── modeling_exam_score.py
 │   ├── modeling_gpa.py
-│   ├── clustering_student_profiles.py
-│   └── predict_gpa.py
+│   └── clustering_student_profiles.py
 ├── pipeline.py               # Main runner script
 └── report.tex                # LaTeX report file
 ```
@@ -49,11 +51,11 @@ python pipeline.py
 
 ### Predict GPA for new students:
 ```bash
-python scripts/predict_gpa.py data/input/new_students.csv
+python predict/predict_gpa.py predict/input/new_students.csv
 ```
 
 ## 📊 Input Format for GPA Prediction
-Ensure your CSV has these columns:
+Ensure your CSV file in `predict/input/` has these columns:
 ```csv
 StudyTimeWeekly,ParentalSupport,Absences
 10.5,2,4
@@ -74,7 +76,7 @@ Output figures are saved in `/figures/`.
 ---
 
 ## ✍️ Author
-Arshdeep Mann
+Arshdeep Mann  
 Simon Fraser University
 
 ## 📌 Future Work
