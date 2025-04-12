@@ -4,7 +4,7 @@ This project analyzes student performance using machine learning techniques. It 
 
 ## 📁 Project Structure
 ```
-student-sleep-ML/
+student-performance-prediction/
 ├── data/
 │   ├── raw/                  # Original datasets
 │   ├── interim/              # Cleaned intermediate datasets
@@ -34,8 +34,8 @@ student-sleep-ML/
 ## 🧪 Setup & Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/arshmann2003/student-sleep-ML.git
-cd student-sleep-ML
+git clone https://github.com/arshmann2003/student-performance-prediction.git
+cd student-performance-prediction
 ```
 
 2. Install dependencies (recommended in a virtual environment)
