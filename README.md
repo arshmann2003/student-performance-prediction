@@ -2,11 +2,11 @@
 
 **Predicting student GPA and exam scores from study habits, attendance, and family background, with an interactive web app.**
 
-[![Live demo](https://img.shields.io/badge/Live%20demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://arshdeep-gpa-predictor.streamlit.app)
+[![Live demo](https://img.shields.io/badge/Live%20demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://gpa-predictor-amann.streamlit.app)
 ![Python](https://img.shields.io/badge/Python-3.13-3776AB?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)
 
-### 👉 [Try the live demo](https://arshdeep-gpa-predictor.streamlit.app)
+### 👉 [Try the live demo](https://gpa-predictor-amann.streamlit.app)
 
 ![Demo of the Student Performance Predictor app](figures/demo_screenshot.png)
 
